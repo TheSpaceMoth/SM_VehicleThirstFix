@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>Vehicle Dubs Needs Fix</name>
+  <author>SpaceMoth</author>
+  <url></url>
+  <packageId>Spacemoth.VehicleNeedsFix</packageId>
+  <description>This mod aims to fix the issues with needs added by Dub's Bad Hygiene such as hygiene, thirst and bladder while in a vehicle caravan.
+</description>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+	  <li>
+		<packageId>brrainz.harmony</packageId>
+		<displayName>Harmony</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+	  </li>	  
+	  <li>
+		<packageId>SmashPhil.VehicleFramework</packageId>
+		<displayName>Vehicle Framework</displayName>
+		<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404</downloadUrl>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/3014915404</steamWorkshopUrl>
+	  </li>
+	  <li>
+		<packageId>Dubwise.DubsBadHygiene</packageId>
+		<displayName>Dubs Bad Hygiene</displayName>
+		<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=836308268</downloadUrl>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/3836308268</steamWorkshopUrl>
+	  </li>
+  </modDependencies>
+  <loadAfter>
+		<li>brrainz.harmony</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>Dubwise.DubsBadHygiene</li>
+  </loadAfter>
+</ModMetaData>
